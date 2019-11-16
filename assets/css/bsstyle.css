@@ -1,5 +1,5 @@
 .navbar {
-  height: 75px;
+  height: 15%;
   width: 100%;
 }
 
@@ -8,7 +8,7 @@
 }
 
 #navbarNav {
-  margin-right: 350px;
+  margin-right: 18%;
 }
 
 .navbar-brand{
@@ -16,25 +16,32 @@
   width: 160px;
   height: 75px;
   text-align: center;
-  margin-left: 200px;
+  margin-left: 20%;
     }
 
   .imgtext{
-    margin-left: 200px;
+    margin-left: 20%;
+    line-height: 250%;
+    width: 80%;
   }
+
+
 
   .container{
     font-family: 'Georgia', Times, Times New Roman, serif;
     margin-top: 20px;
-    margin-left: 200px;
+    margin-left: 20%;
     color: #4aaaa5;
     width: 960px;
     margin-bottom: 0px;
+    
   }
 
+
+  
 .contact{
-  width:960px;
-  margin-left: 220px;
+  width: 60%;
+  margin-left: 21%;
 }
 
   .footer {
@@ -43,7 +50,7 @@
     background-color: #666666;
     border-top: 5px solid #4aaaa5;
     padding: 0px;
-    height: 75px;
+    height: 10%;
     width: 100%;
     margin-top: 536px; 
     position: fixed;
@@ -60,12 +67,3 @@
   float: left;
 }
 
-@media screen and (max-width: 640px) {
-  .nav-link { 
-   float: none;
-   margin-right:0;
-   width:auto;
-   border:0;
-   border-bottom:2px solid #000;    
- }
-}
