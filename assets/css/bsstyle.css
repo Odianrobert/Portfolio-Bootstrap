@@ -3,7 +3,7 @@
   width: 1200px;
 }
 
-.navbar-brand a {
+#navbar-name {
   color:white;
 }
 
@@ -13,6 +13,7 @@
   height: 75px;
   text-align: center;
   color: white;
+  margin-left: 200px;
     
   }
   
