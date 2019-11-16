@@ -1,10 +1,14 @@
 .navbar {
   height: 75px;
-  width: 1200px;
+  width: 100%;
 }
 
 #navbar-name {
   color:white;
+}
+
+#navbarNav {
+  margin-right: 400px;
 }
 
 .navbar-brand{
@@ -12,15 +16,17 @@
   width: 160px;
   height: 75px;
   text-align: center;
-  color: white;
   margin-left: 200px;
-    
+    }
+
+  .imgtext{
+    margin-left: 200px;
   }
-  
+
   .container{
     font-family: 'Georgia', Times, Times New Roman, serif;
     margin-top: 20px;
-    margin-left: 272px;
+    margin-left: 200px;
     color: #4aaaa5;
     width: 960px;
     margin-bottom: 0px;
@@ -33,18 +39,28 @@
     border-top: 5px solid #4aaaa5;
     padding: 0px;
     height: 75px;
-    width: 1512px;
+    width: 100%;
     margin-top: 536px; 
     position: fixed;
     bottom: 0;
   }
+
+  .copy {
+    margin-top: 15px;
+  }
   
-  @media screen and (max-width: 640px) {
-    .nav-link { 
-     float: none;
-     margin-right:0;
-     width:auto;
-     border:0;
-     border-bottom:2px solid #000;    
-   }
+.img-thumbnail {
+  height: 175px;
+  width: 175px;
+  float: left;
+}
+
+@media screen and (max-width: 640px) {
+  .nav-link { 
+   float: none;
+   margin-right:0;
+   width:auto;
+   border:0;
+   border-bottom:2px solid #000;    
+ }
 }
