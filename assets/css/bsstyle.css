@@ -8,7 +8,7 @@
 }
 
 #navbarNav {
-  margin-right: 400px;
+  margin-right: 350px;
 }
 
 .navbar-brand{
@@ -31,6 +31,11 @@
     width: 960px;
     margin-bottom: 0px;
   }
+
+.contact{
+  width:960px;
+  margin-left: 220px;
+}
 
   .footer {
     color: grey;
