@@ -24,6 +24,19 @@
     width: 960px;
     margin-bottom: 0px;
   }
+
+  .footer {
+    color: grey;
+    text-align: center;
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
+    padding: 0px;
+    height: 75px;
+    width: 1512px;
+    margin-top: 536px; 
+    position: fixed;
+    bottom: 0;
+  }
   
   @media screen and (max-width: 640px) {
     .nav-link { 
