@@ -1,26 +1,6 @@
-.header {
-  background-color: #ffffff;
-  border-color: #cccccc;
-  border-width: 1px;
-  border-style: solid;
-  padding: 0px;
-  height: 75px;
-  width: 1512px;
-  margin-top: -20px;
-}
 
-.h1box{
-  background-color: #4aaaa5;
-  font-family: 'Georgia', Times, Times New Roman, serif;
-  Width: 12%;
-  height: 75px;
-  text-align: center;
-  float: left;
-  line-height:75px;
-  color: #ffffff;
-  margin-left: 276px;
-  margin-top: 0px;
-}
+
+
 
 .indextext{
   float: left;
@@ -40,12 +20,7 @@
   margin-bottom: 0px;
 }
 
-.ul {
-list-style-type: none;
-margin-right: 250px;
-padding: 10;
-float: right;
-}
+
 
 li {
   float: right;
@@ -222,3 +197,25 @@ h2{
   height:400px;
   width: 400px;
 }
+
+.nav-link {
+  margin-left: 272px;
+  
+}
+.navbar-brand{
+  background-color: #4aaaa5;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #ffffff;
+  Width: 12%;
+  height: 75px;
+  text-align: center;
+  float: left;
+  line-height:75px;
+  
+  margin-left: 272px;
+  margin-top: 0px;
+}
+
+.navbar-link, .navbar-nav, .navbar-item {
+  float: right;
+  }
