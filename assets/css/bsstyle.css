@@ -1,14 +1,18 @@
+.navbar {
+  height: 75px;
+  width: 1200px;
+}
+
+.navbar-brand a {
+  color:white;
+}
+
 .navbar-brand{
-    background-color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #ffffff;
-    Width: 150px;
-    text-align: center;
-    height: 80px;
-    float: left;
-    line-height: 50px;
-    margin-left: 272px;
-    overflow: hidden;
+  background-color: #4aaaa5;
+  width: 160px;
+  height: 75px;
+  text-align: center;
+  color: white;
     
   }
   
