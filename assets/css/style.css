@@ -11,14 +11,7 @@
   color: grey; 
   line-height: 250%;  
 }
-.container{
-  font-family: 'Georgia', Times, Times New Roman, serif;
-  margin-top: 20px;
-  margin-left: 276px;
-  color: #4aaaa5;
-  width: 960px;
-  margin-bottom: 0px;
-}
+
 
 
 
@@ -198,24 +191,36 @@ h2{
   width: 400px;
 }
 
-.nav-link {
-  margin-left: 272px;
-  
-}
+
 .navbar-brand{
   background-color: #4aaaa5;
   font-family: 'Georgia', Times, Times New Roman, serif;
   color: #ffffff;
-  Width: 12%;
-  height: 75px;
+  Width: 150px;
   text-align: center;
+  height: 80px;
   float: left;
-  line-height:75px;
-  
+  line-height: 50px;
   margin-left: 272px;
-  margin-top: 0px;
+  overflow: hidden;
+  
 }
 
-.navbar-link, .navbar-nav, .navbar-item {
-  float: right;
-  }
+.container{
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  margin-top: 20px;
+  margin-left: 272px;
+  color: #4aaaa5;
+  width: 960px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 640px) {
+  .nav-link { 
+   float: none;
+   margin-right:0;
+   width:auto;
+   border:0;
+   border-bottom:2px solid #000;    
+ }
+}

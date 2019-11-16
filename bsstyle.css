@@ -1,0 +1,32 @@
+.navbar-brand{
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+    Width: 150px;
+    text-align: center;
+    height: 80px;
+    float: left;
+    line-height: 50px;
+    margin-left: 272px;
+    overflow: hidden;
+    
+  }
+  
+  .container{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-top: 20px;
+    margin-left: 272px;
+    color: #4aaaa5;
+    width: 960px;
+    margin-bottom: 0px;
+  }
+  
+  @media screen and (max-width: 640px) {
+    .nav-link { 
+     float: none;
+     margin-right:0;
+     width:auto;
+     border:0;
+     border-bottom:2px solid #000;    
+   }
+}
