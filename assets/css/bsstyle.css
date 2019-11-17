@@ -17,29 +17,25 @@
   height: 75px;
   text-align: center;
   margin-left: 20%;
-    }
+}
 
-  .imgtext{
+.imgtext{
     margin-left: 20%;
     line-height: 250%;
     width: 80%;
-    height: 25%;
-  }
+    height: 20%;
+    margin-bottom: 10%;
+}
 
-
-
-  .container{
+.container{
     font-family: 'Georgia', Times, Times New Roman, serif;
     margin-top: 20px;
     margin-left: 20%;
     color: #4aaaa5;
     width: 960px;
     margin-bottom: 0px;
-    
-  }
+}
 
-
-  
 .contact{
   width: 60%;
   margin-left: 21%;
@@ -58,9 +54,9 @@
     bottom: 0;
   }
 
-  .copy {
+.copy {
     margin-top: 15px;
-  }
+}
   
 .img-thumbnail {
   height: 175px;
@@ -68,3 +64,45 @@
   float: left;
 }
 
+.img-fluid{
+  height: 25%;
+  width: 25%;
+  padding: 3px;
+  margin-left: 20%;
+  margin-bottom: 10%;
+}
+
+h2{
+  background-color: #4aaaa5;
+  color: #ffffff;
+  width: 125px;
+  text-align: center;
+  font-size: small;
+}
+
+.container3{
+  position: relative;
+  float: left;
+}
+
+.container3 h2 {
+  position: absolute;
+  font-size: 150%;
+  line-height: 80px;
+  height: 80px;
+  width: 98%;
+  height: 80px;
+  bottom: 60px;
+  margin-left: 21%;
+}
+
+.container3 img {
+  height:400px;
+  width: 400px;
+}
+
+.section {
+  width: 70%;
+  margin-left: 15%; 
+  float: left;
+}
